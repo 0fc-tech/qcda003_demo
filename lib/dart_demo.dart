@@ -32,7 +32,6 @@ void main(){
       surname: "JeanMichel"
   );
   var noSurname = User.withoutSurname(id: 15, name: "Denis");
-
   //Usage d'une Future
   jeanMichel.connect().then((valeur){
     print("Michel est connecté");
@@ -52,5 +51,11 @@ String linkArrayWith(List<int> array, {delimiter = " ", suffixe = ""}){
 }
 
 //Fonction avec généricité
- List<T> listOf<T>(T element1,T element2,T element3,T element4)=>
-     [element1,element2,element3,element4, element4];
+List<T> listOf<T>(T element1,T element2,T element3,T element4)=>
+   [element1,element2,element3,element4, element4];
+
+
+
+
+
+
